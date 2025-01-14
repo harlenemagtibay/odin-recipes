@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+.header {
+    background-color: #f0da93;
+    color: #744100;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    padding-left: 32%;
+    padding-right: 32%;
+    text-align: justify;
+    font-size: 18px;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+ol {
+    display: inline-block;
+    text-align: justify;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.recipe-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.u-list{
+    text-align: center;
+    display: inline;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recipe {
+    color: #643a02;
+    font-size: 30px;
+    display: inline;
+}
+
+button {
+    background-color: #643a02;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px 30px;
+    width: 250px;
+    text-align: center;
+}
+
+.home-button-top,
+.home-button-bottom {
+    background-color: #ffd484;
+    color: #095472;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    padding: 5px 30px;
+}
+
+.home-button-bottom {
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 20px;
+}
+
+
